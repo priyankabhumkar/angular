@@ -1,0 +1,23 @@
+.left-menu{
+    position:fixed;
+    top: 0;
+    left:0;
+    width: 300px;
+    height: 100vh;
+    background: lightgrey;
+    padding: 20px;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{ 
+            padding: 10px;
+            &:hover{
+                background-color: darkgray;
+            }
+        }
+
+        
+    }
+
+}
